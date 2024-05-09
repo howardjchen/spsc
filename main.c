@@ -156,7 +156,7 @@ static int enqueue(spsc_queue_t *self, element_t value)
 
 #define TEST_SIZE 200000000
 
-#define N_MAX_CORE 64
+#define N_MAX_CORE 8
 static spsc_queue_t queues[N_MAX_CORE];
 
 typedef struct {
